@@ -43,4 +43,4 @@ jobs:
         run: npm ci
       # HonKitのビルド
       - name: build HonKit
-        run: npm run build
+        run: npx honkit pdf
