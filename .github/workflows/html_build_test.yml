@@ -1,10 +1,10 @@
-# HonKitのビルドとGitHub Pagesへのデプロイを行う
 name: Test building HonKit
 
 on:
   # Runs on pushes targeting the default branch
   pull_request:
     branches: ["main"]
+  workflow_dispatch:
 
 jobs:
   # Build job
@@ -29,6 +29,8 @@ jobs:
         run: npm run build
   pdf:
     runs-on: ubuntu-latest
+    container:
+      image: honkit/honkit
     steps:
       - name: Checkout
         uses: actions/checkout@v4
