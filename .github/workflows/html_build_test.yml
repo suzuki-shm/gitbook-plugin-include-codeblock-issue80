@@ -24,7 +24,7 @@ jobs:
         run: npm ci
       # HonKitのビルド
       - name: build HonKit
-        run: npm run build
+        run: npx honkit build
   pdf:
     runs-on: ubuntu-latest
     container:
