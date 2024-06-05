@@ -1,0 +1,16 @@
+{
+  "name": "test-document",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suzuki-shm/gitbook-plugin-include-codeblock-issue80.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gitbook-plugin-ace": "^0.3.2",
+    "gitbook-plugin-include-codeblock": "^3.2.3",
+    "honkit": "^5.1.4"
+  }
+}

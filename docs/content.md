@@ -1,0 +1,1 @@
+[import, lang:"yaml"](./scripts/script.yml)

@@ -1,0 +1,9 @@
+name: Test
+
+jobs:
+  static_test:
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10"]
+    steps:
+    - name: ${{ matrix.python-version }}

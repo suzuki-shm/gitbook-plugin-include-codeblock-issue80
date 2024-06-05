@@ -1,0 +1,15 @@
+{
+    "root": "./docs",
+    "language": "ja",
+    "title": "Test document",
+    "author": "Shinya Suzuki",
+    "plugins": [
+        "include-codeblock",
+        "ace"
+    ],
+    "pluginsConfig" : {
+        "include-codeblock": {
+            "template": "ace"
+        }
+    }
+}
